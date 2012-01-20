@@ -1,0 +1,38 @@
+
+           .          .
+ .          .                  .          .              .
+       +.           _____  .        .        + .                    .
+   .        .   ,-~"     "~-.                                +
+              ,^ ___         ^. +                  .    .       .
+             / .^   ^.         \         .      _ .
+            Y  l  o  !          Y  .         __CL\H--.
+    .       l_ `.___.'        _,[           L__/_\H' \\--_-          +
+            |^~"-----------""~ ^|       +    __L_(=): ]-_ _-- -
+  +       . !                   !     .     T__\ /H. //---- -       .
+         .   \                 /               ~^-H--'
+              ^.             .^            .      "       +.
+                "-.._____.,-" .                    .
+         +           .                .   +                       .
+  +          .             +                                  .
+         .             .      .       -Row
+                                                        .
+
+                                ->Do a Barrelroll<-
+
+This program makes proxy servers into DDoS clients. Use only for educational and research purposes.
+
+                                    ->Requires<-
+
+-> pycurl
+-> python 2.3
+
+                                     ->Usage<-
+
+$ ./barrelroll.py [ip] [host] [forks]
+
+                                    ->Example<-
+
+$ ./barrelroll.py 8.8.8.8 google.com 30 < full_list/_full_list.txt
+$ ./barrelroll.py 8.8.4.4 google.com 30 < full_list/us.txt
+
+
